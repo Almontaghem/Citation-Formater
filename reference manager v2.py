@@ -4,13 +4,12 @@ from habanero import Crossref
 from datetime import datetime
 
 # --- CONFIGURATION ---
-# Your email address (required for polite use of the Crossref API).
-EMAIL_ADDRESS = "m.mehrdarm2@gmail.com" 
+# Your email address
+EMAIL_ADDRESS = "example@gmail.com" 
 
 # Path to the input and output Word files.
-INPUT_FILE = r"C:\Users\RGN\Desktop\test.docx"
-OUTPUT_FILE = r"C:\Users\RGN\Desktop\testeditted.docx"
-# ---------------------
+INPUT_FILE = r"C:\Users\PC\Desktop\Filename.docx"
+OUTPUT_FILE = r"C:\Users\PC\Desktop\Edited File.docx" #It will save the editted file in the path you write here
 
 # Create an instance of the Crossref client.
 cr = Crossref(mailto=EMAIL_ADDRESS)
